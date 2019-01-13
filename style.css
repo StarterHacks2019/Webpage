@@ -68,6 +68,8 @@ h2 {
 .transbox {
     margin-left: 30px;
     margin-right: 600px;
+    border-radius: 25px;
+    padding: 20px;
     background-color: black;
     border: 1px solid black;
     opacity: 0.6;
