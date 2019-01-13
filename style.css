@@ -1,0 +1,59 @@
+h2 {
+    color: purple;
+}
+
+.blue-text {
+    color:blue;
+}
+
+.white-text {
+    color:white;
+    font:arial;
+}
+
+#orange-tag {
+    color:orange;
+}
+
+.absolute {
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.fixed {
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.display {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.none {
+    display: none;
+}
+
+@media(max-width: 500px) {
+    .mobile-desktop {
+      background-color: black;
+      color: white;
+    }
+}
+
+.column {
+     width:300px;
+     float:left
+}
+
+@media(min-width: 500px) {
+    .mobile-desktop {
+        background-color: white;
+        color: black;
+    }
+}
